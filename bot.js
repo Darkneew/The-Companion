@@ -2,7 +2,7 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 var prefix = 'l!';
-client.login(process.env.BOT_TOKEN);
+bot.login(process.env.BOT_TOKEN);
 bot.on('ready', () => {
     console.log("Alleluia ca marche")
     bot.user.setActivity("over the disciples of the holy Lumi", {type: 3});
